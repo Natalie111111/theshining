@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+}
+
+svg {
+  width: 100%;
+}
+
+.st2 {
+  fill: #A7A987;
+  animation: st2-color-change 6s infinite;
+}
+
+@keyframes st2-color-change {
+  0%{
+    fill: #A7A987;
+  }
+
+  24% {
+    fill: #A7A987;
+  }
+
+  25%{
+    fill: #7294D4;
+  }
+
+  49%{
+    fill: #7294D4;
+  }
+
+  50%{
+    fill: #C6CDF7;
+  }
+
+  74%{
+    fill: #C6CDF7;
+  }
+
+  75%{
+    fill: #425050;
+  }
+
+  99%{
+    fill: #425050;
+  }
+
+  100%{
+    fill: #A7A987;
+  }
+}
+
+.st1 {
+  fill: #F9F9F7;
+  animation: st1-color-change 6s infinite;
+}
+
+@keyframes st1-color-change {
+  0%{
+    fill: #F9F9F7;
+  }
+
+  24%{
+    fill: #F9F9F7;
+  }
+
+
+  25%{
+    fill:#E6A0C4;
+    /* stroke:#81C7D4; */
+  }
+
+  49%{
+    fill:#E6A0C4;
+    /* stroke:#81C7D4; */
+  }
+
+  50%{
+    fill:#7294D4;
+    /* stroke:#FFF; */
+  }
+
+  74%{
+    fill:#7294D4;
+    /* stroke:#FFF; */
+  }
+
+  75%{
+    fill:#E9EEDF;
+    /* stroke:#A8D8B9; */
+  }
+
+  99%{
+    fill:#E9EEDF;
+    /* stroke:#A8D8B9; */
+  }
+
+  100%{
+    fill: #F9F9F7;
+  }
+}
+
+.st0 {
+  fill: #C6B4AF;
+  animation: st0-color-change 6s infinite;
+}
+
+@keyframes st0-color-change {
+  0%{
+    fill: #C6B4AF;
+  }
+
+  24%{
+    fill: #C6B4AF;
+  }
+
+
+  25%{
+    fill:#C6CDF7;
+    /* stroke:#81C7D4; */
+  }
+
+  49%{
+    fill:#C6CDF7;
+    /* stroke:#81C7D4; */
+  }
+
+  50%{
+    fill:#E6A0C4;
+    /* stroke:#FFF; */
+  }
+
+  74%{
+    fill:#E6A0C4;
+    /* stroke:#FFF; */
+  }
+
+  75%{
+    fill:#6E848A;
+    /* stroke:#A8D8B9; */
+  }
+
+  99%{
+    fill:#6E848A;
+    /* stroke:#A8D8B9; */
+  }
+
+  100%{
+    fill: #C6B4AF;
+  }
+}
